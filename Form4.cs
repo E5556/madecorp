@@ -92,5 +92,10 @@ namespace Api1
         {
 
         }
+
+        private void VENTAS_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
