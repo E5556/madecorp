@@ -481,6 +481,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VENTAS";
             this.Text = "VENTAS";
+            this.Load += new System.EventHandler(this.VENTAS_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

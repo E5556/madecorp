@@ -101,10 +101,10 @@
             this.button10.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
-
-             
-             
-                         this.button9.BackgroundImage = global::Api1.Properties.Resources.USUARIO;
+            // 
+            // button9
+            // 
+            this.button9.BackgroundImage = global::Api1.Properties.Resources.USUARIO;
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -269,6 +269,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -79,7 +79,7 @@ namespace Api1
         {
             this.Hide();
 
-            Form frm_ingreso = new inventario();
+            Form frm_ingreso = new Inventario();
             frm_ingreso.Show();
         }
 
@@ -88,8 +88,11 @@ namespace Api1
 
         }
 
-            Form frm_ingreso = new Proveedores();
-            frm_ingreso.Show();
+            
+private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
-}
+    }
+
