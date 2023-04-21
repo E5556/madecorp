@@ -44,5 +44,10 @@ namespace Api1
         {
 
         }
+
+        private void Compras_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
