@@ -29,7 +29,10 @@ namespace Api1
 
         private void button10_Click(object sender, EventArgs e)
         {
+            this.Hide();
 
+            Form frm_ingreso = new Menu();
+            frm_ingreso.Show();
         }
     }
 }

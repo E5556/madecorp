@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Api1
 {
@@ -34,6 +35,15 @@ namespace Api1
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            SqlConnection conexion = new SqlConnection("server=EDWARDCUESTA\\SQLEXPRESS; database=madececorp; integrated security = true");
+            conexion.Open();
+            MessageBox.Show("se abre la conexión con el servidorSQLserver y se selecciono la data");
+            conexion.Close();
+            MessageBox.Show("se cierra la conexión");
+
+
+
             this.Hide();
 
             Form frm_ingreso = new Menu();
